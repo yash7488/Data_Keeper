@@ -80,7 +80,7 @@ After completing the configuration steps, you can now run Snapture locally.
 1.  Start the backend server:
 	```sh
 	cd server 
-	node index.js
+	node server.js
 	```
 2. Start the frontend development server:
 	```sh
