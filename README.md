@@ -4,8 +4,8 @@ Data_keeper is a MERN (MongoDB, Express.js, React, Node.js) application facilita
 
 ## Features
 
-![Screenshot 2024-02-05 at 12 42 44 AM](https://github.com/yash7488/Data_Keeper/assets/80100162/c56b326c-66b4-4d93-9775-1fd69b38a847)
-![Screenshot 2024-02-05 at 12 40 45 AM (1)](https://github.com/yash7488/Data_Keeper/assets/80100162/0029883c-39ec-45b5-91f7-e95166a4aac4)
+
+![Screenshot 2024-02-05 at 12 40 45 AM (1)](https://github.com/yash7488/Data_Keeper/assets/80100162/f0f47d52-d4e4-4ac1-916c-9a47c0002f70)
 
 
 
