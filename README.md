@@ -1,6 +1,6 @@
 # Data_Keeper
 
-Quickshorts is a social media application where you can create image posts,like posts,comment on posts, and add or remove friends.
+Data_keeper is a MERN (MongoDB, Express.js, React, Node.js) application facilitating CRUD operations. Users can seamlessly create, edit, and read data, ensuring a robust and user-friendly experience. The application empowers efficient data management with its comprehensive functionality and the power of the MERN stack.
 
 ## Features
 
@@ -8,14 +8,9 @@ Quickshorts is a social media application where you can create image posts,like 
 ![Screenshot 2024-02-05 at 12 40 45 AM (1)](https://github.com/yash7488/Data_Keeper/assets/80100162/0029883c-39ec-45b5-91f7-e95166a4aac4)
 
 
-1.  **API Authorization**: Quickshorts ensures secure access to its APIs through JWT (JSON Web Token) authorization. Only authorized users can interact with the application's APIs.
-    
-2.  **Session Management**: JWT is used for session management in Snapture. It helps maintain user sessions and provides secure access to different parts of the application.
-    
- ## Technology Stack
 
 
-Quickshorts is built using the following technologies:
+Data_Keeper is built using the following technologies:
 
 -   **Frontend**: React.js
 -   **Backend**: Node.js with Express.js
@@ -25,7 +20,7 @@ Quickshorts is built using the following technologies:
 
 ## Prerequisites
 
-Before running Quickshorts, ensure that you have the following software installed:
+Before running Data_Keeper, ensure that you have the following software installed:
 
 -   Node.js: Make sure you have Node.js installed on your system. You can download it from the official Node.js website and follow the installation instructions for your operating system.
     
@@ -33,34 +28,34 @@ Before running Quickshorts, ensure that you have the following software installe
 
 ## Installation
 
-To install and run QuickShorts locally, follow these steps:
+To install and run Data_Keeper locally, follow these steps:
 
 1.  Clone the repository:
     ```sh    
-       git clone https://github.com/yash7488/Quickshorts.git
+       git clone https://github.com/yash7488/Data_Keeper.git
     ```
     
 2.  Navigate to the cloned repository:
      
-    `cd _QuickShorts` 
+    `cd Data_Keeper` 
     
 3.  Install the dependencies for the frontend:
     
     ```sh    
-    cd client
+    cd frontend
     npm install
     ``` 
     
 4.  Install the dependencies for the backend:
         
     ```sh    
-    cd ../server
+    cd ../backend
     npm install
     ```
     
 ## Configuration
 
-QuickShorts requires configuration for various services. Here are the steps to set up the required configuration:
+Data_Keeper requires configuration for various services. Here are the steps to set up the required configuration:
 
 ### Backend Configuration
 
@@ -72,13 +67,13 @@ QuickShorts requires configuration for various services. Here are the steps to s
     
     -   `MONGO_URL`: The MongoDB connection string.
     
-    -   `PORT` : 3001.
+    -   `PORT` : 3000.
                 
-    -   `JWT_KEY`: A secret key used for JWT token generation and validation.
+  
         
 4.  Save the `.env` file.
 
-## Running QuickShorts
+## Running Data_Keeper
 
 After completing the configuration steps, you can now run Snapture locally.
 
@@ -92,6 +87,6 @@ After completing the configuration steps, you can now run Snapture locally.
 	cd ../client
 	npm start
 	```
-3. Access QuickShorts in your browser at `http://localhost:3000`.
+3. Access Data_Keeperin your browser at `http://localhost:3000`.
 
 
